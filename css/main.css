@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+div.background-content {
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 42%, 0 54%, 0 0);
+          clip-path: polygon(50% 0%, 100% 0, 100% 42%, 0 54%, 0 0);
+  position: absolute;
+  background-color: #242424;
+  width: 100%;
+  height: 130%;
+  z-index: -1;
+}
+
+div.background-content img {
+  width: 100%;
+  opacity: 0.3;
+  -webkit-filter: saturate(2) contrast(1);
+          filter: saturate(2) contrast(1);
+}
+
+body {
+  background-color: #00f2ce;
+  font-family: "Comfortaa", cursive;
+  padding: 0;
+  margin: 0;
+}
+
+body .nav {
+  background-color: #242424;
+}
+
+body .nav nav {
+  background-color: #f1f1f1;
+  padding: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  position: fixed;
+  width: 100%;
+}
+
+body .nav nav div.navbar-nav {
+  display: none;
+  position: absolute;
+}
+
+body .nav nav .logo-nav {
+  display: inline-block;
+  position: relative;
+  margin-top: 1em;
+}
+
+body .nav nav .logo-nav .nav-link {
+  color: #242424;
+  font-size: 2em;
+  font-style: oblique;
+  font-weight: 900;
+}
+
+body .nav nav .logo-nav .nav-link #logo-icon {
+  display: none;
+}
+
+body div.content {
+  padding: 3em 1em 1em 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border: #242424 solid;
+}
+
+body div.content div.hero-container {
+  color: #f1f1f1;
+}
+
+body div.content div.hero-container div.hero-content {
+  margin: 5em 1em 5em 1em;
+}
+
+body div.content div.hero-container div.hero-content h1 {
+  font-size: 2em;
+  font-weight: 1000;
+  margin-bottom: 2em;
+  text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+body div.content div.hero-container div.hero-content p {
+  font-size: 0.9em;
+  font-weight: lighter;
+  opacity: 0.7;
+  text-align: center;
+}
+
+body div.content div.hero-container div.hero-content img {
+  width: 50%;
+  border-radius: 1em;
+  -webkit-box-shadow: 0.2em 0.3em .5em #242424;
+          box-shadow: 0.2em 0.3em .5em #242424;
+  margin: 6em 1em 2em 1em;
+}
+
+body div.content div.info-container {
+  margin: 1em 2em 2em 2em;
+}
+
+body div.content div.info-container div.portfolio h1.header {
+  font-size: 1.4em;
+  color: #242424;
+}
+/*# sourceMappingURL=main.css.map */
